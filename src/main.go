@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	router := gin.Default()
+		router := gin.Default()
 
 	// Hello World endpoint
 	router.GET("/api/v1/hws", func(c *gin.Context) {
